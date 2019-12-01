@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.mycontrol{
+justify-content: center;
+}
+#myacc{
+    font-size: 2em;
+}
+.myCreate{
+  text-align: center;
+  padding: 2px;
+}
+#create{
+    background-color: rgb(33, 151, 230);
+    border: 10px;
+    border-radius: 2px;
+}
+#create a{
+font-size: 2em;
+ text-decoration: none;
+    color: #ffe;
+   
+}
+fieldset{
+    background-color: cornsilk;
+    background-position: bottom;
+    background-origin: initial;
+}
+#last{
+background-size:100px;
+  background-color: burlywood;
+  background-position: bottom;
+  
+   
+}
