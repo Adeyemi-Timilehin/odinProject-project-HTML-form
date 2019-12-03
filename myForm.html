@@ -9,36 +9,42 @@
 </head>
 
 <body>
-    <div >
-        <form class="container">
-            <fieldset>
-                <div class="mycontrol">
-                    <p id="myacc">Create an Intuit account</p>
-                    <p>One account for everything Intuit, including Mint.<a href="#"  style="display: flex;justify-content: center; line-height: 0.3em;text-emphasis: size 0.4em;;"><br>Learn more</a></p>
-                </div>
+    <div class="container">
+        <form >
+            <fieldset class="myAcct">
+<div class="intro">
+                <p id="myacc"> Create an Intuit account </p>
+                <p>One account for everything Intuit, including Mint.<a href="#"
+                        style="display: flex;justify-content: center; line-height: 0.3em;text-emphasis: size 0.4em;;"><br>Learn
+                        more</a>
+                </p>
+            </div>
                 <label>
-                    <p> Email address</p>
+                    Email address
                     <input type="email" value="" placeholder="enter your email" />
                 </label>
-                <label>
-                    <p>Phone(recommended)</p> <input type="number" value="phone" placeholder="xxx-xxxx" /><br><span
-                        style="font-size:0.7em;"> Standard call, messaging or data rates may apply</span>
+                <label style="margin-top:-7px;">
+                    Phone(recommended) <input type="number" value="phone" placeholder="xxx-xxxx" /><span style="color: black;font: 0.7em  Helvetica, Arial, sans-serif;">Standard call,
+                    messaging or data rates may apply.</span>
                 </label>
                 <label>
-                    <p>Password</p>
+                    Password
                     <input type="password" value="" placeholder="strong password required." />
                 </label>
-                <div class="myCreate">
-                    <p id="create"><a href="#"> Create Account</a></p>
-                    <p>By clicking Create account, you agree to our<br>
-                        <a href="#">Terms </a> and have read and acknowledge our<a href="#"> Privacy<br> Statement</a>.</p>
-                </div>
-                <fieldset style="background-color: white;">
-                <div><span style="background-color: aliceblue;">Invisible reCAPTCHA by Google<a href="#"> Privacy Policy</a> and <a href="#">Terms of Use</a></span></div>
-            </fieldset>              
+           
+                  <input class="btn" type="submit" name="submit" value="Create Account">
+              
+                                    <p style="text-align: center;font: 1em Arial,sans-serif,Helvetica;font-style: italic;">By clicking Create account, you agree to our<br>
+                        <a href="#">Terms </a> and have read and acknowledge our<a href="#"> Privacy<br>
+                            Statement</a>.</p>
+                
             </fieldset>
-                           
+            <fieldset class="policy">
+                <p> Invisible reCAPTCHA by Google<a href="#"> Privacy Policy</a> and <a href="#">Terms of
+                        Use</a></p>
+            </fieldset>
         </form>
+        </div>
 </body>
 
 </html>
